@@ -1,0 +1,56 @@
+/*IMPORTANT*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'), url(https://example.com/MaterialIcons-Regular.woff) format('woff'), url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: "poppins";
+    background: #e3e9f0;
+    --primary: rgb(211, 13, 13);
+    --primaryShade: white;
+    --secondaryShade: rgb(245, 242, 248);
+    --tertiaryShade: rgb(47, 48, 66);
+    --quaternaryShade: rgb(51, 52, 71);
+}
+
+body::-webkit-scrollbar {
+    width: 14px;
+    background: #e3e9f0;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #36394550;
+    width: 100%;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #36394580;
+}
+
+
+/**/
+
+.container {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0 12px 20px 0;
+    background: white;
+}
